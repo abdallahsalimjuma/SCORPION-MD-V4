@@ -11,14 +11,14 @@ const text = m.body.slice(prefix.length + cmd.length).trim();
     const end = new Date().getTime();
     const responseTime = (end - start) / 1000;
 
-    const text = `*YESSER-MD*
-_✈︎᯽᯽᯽᯽᯽᯽᯽᯽᯽᯽᯽᯽᯽᯽᯽✈︎✈︎
+    const text = `*Scorpion-MD*
+_✈︎✞✞✞✞✞✞✞✞✞✞✞✞✞✞✞✞✞✞✞✞✞✞✈︎✈︎
 *🤠 ${push$name} hellow 🤠
 *📆 ${days} Day(s)*
 *🕰️ ${hours} Hour(s)*
 *⏳ ${minutes} Minute(s)*
 *⏲️ ${seconds} Second(s)*
-_✈︎᯽᯽᯽᯽᯽᯽᯽᯽᯽᯽᯽᯽᯽᯽᯽︎✈︎✈︎`
+_✈︎✞✞✞✞✞✞✞✞✞✞✞✞✞✞✞✞✞✞✞✞✞✞✈︎✈︎`
     sock.sendMessage(m.from, { text }, { quoted: m });
   }
 }
