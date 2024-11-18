@@ -15,7 +15,7 @@ const text = m.body.slice(prefix.length + cmd.length).trim();
 
     try {
       await m.React('🕘');
-      await m.reply('A moment, *YESSER-MD* is generating your lyrics request...');
+      await m.reply('A moment, *SCORPION-MD* is generating your lyrics request...');
 
       if (!text.includes('|')) {
         return m.reply('Please provide the song name and artist name separated by a "|", for example: Spectre|Alan Walker.');
@@ -46,7 +46,7 @@ const text = m.body.slice(prefix.length + cmd.length).trim();
             name: "cta_url",
             buttonParamsJson: JSON.stringify({
               display_text: "Follow Wachannel🤠",
-              url: `https://whatsapp.com/channel/0029VakA1mu35fM18opH1s30`
+              url: `https://whatsapp.com/channel/0029VaihcQv84Om8LP59fO3f`
             })
           },
           {
@@ -70,7 +70,7 @@ const text = m.body.slice(prefix.length + cmd.length).trim();
                   text: lyrics
                 }),
                 footer: proto.Message.InteractiveMessage.Footer.create({
-                  text: "> *© yessertech*"
+                  text: "> *© dullahtech*"
                 }),
                 header: proto.Message.InteractiveMessage.Header.create({
                   title: "",
