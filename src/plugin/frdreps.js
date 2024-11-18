@@ -12,16 +12,16 @@ const text = m.body.slice(prefix.length + cmd.length).trim();
     const responseTime = (end - start) / 1000;
 
     const text = `┏━💀
-┃۞YᗴՏՏᗴᖇ ᗰᗪ
+┃۞SCORPION ᗰᗪ
 ┃۞ᐯIՏIOᑎ (9) 
 ┗━━━━━💀
 ┏━💀
-┃https://github.com/Yassin994/YESSER-MD
-┃ᴄʀᴇᴀᴛᴇᴅ ʙʏ ʏᴇssᴇʀᴛᴇᴄʜ
+┃https://github.com/abdallahsalimjuma/Scorpion-Md-v4
+┃ᴄʀᴇᴀᴛᴇᴅ ʙʏ dullahᴛᴇᴄʜ
 ┗━━━━━━━━━💀
 ┏━━━━━💀
 ┃ ༆ ᴡᴇʟᴄᴏᴍᴇ ɪɴ ᴍʏ sɪᴛᴇ..
- |  ᴄʜᴀɴɴᴇʟ;https://whatsapp.com/channel/0029VakA1mu35fM18opH1s30
+ |  ᴄʜᴀɴɴᴇʟ;https://whatsapp.com/channel/0029VaihcQv84Om8LP59fO3f
 ┗━━━━━━━━━━━━━━━━💀`;
     sock.sendMessage(m.from, { text }, { quoted: m });
   }
