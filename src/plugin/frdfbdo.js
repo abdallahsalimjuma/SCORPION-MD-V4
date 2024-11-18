@@ -146,7 +146,7 @@ const text = m.body.slice(prefix.length + cmd.length).trim();
             content = { 
               video: finalMediaBuffer, 
               mimetype: 'video/mp4', 
-              caption: '> © yessertech',
+              caption: '> © dullahtech',
             };
             await Matrix.sendMessage(m.from, content, { quoted: m });
           } else {
