@@ -1,17 +1,17 @@
 
 {
-  "name": "YESSER-MD",
+  "name": "SCORPION-MD",
   "version": "10.8.1",
-  "description": "YESSER-MD latest multi device whatsapp bot",
+  "description": "SCORPION-MD latest multi device whatsapp bot",
   "main": "index.js",
   "type": "module",
   "scripts": {
     "start": "pm2 start index.js --deep-monitoring --attach --name BMW-MD",
-    "stop": "pm2 stop YESSER-MD",
-    "restart": "pm2 restart YESSER-MD"
+    "stop": "pm2 stop SCORPION-MD",
+    "restart": "pm2 restart SCORPION-MD"
   },
-  "keywords": ["YESSER-md", "whatsapp-bot", "whatsapp md bot"],
-  "author": "yesser tech",
+  "keywords": ["SCORPION-md", "whatsapp-bot", "whatsapp md bot"],
+  "author": "dullah tech",
   "license": "ISC",
   "dependencies": {
     "@ffmpeg-installer/ffmpeg": "^1.1.0",
