@@ -11,7 +11,7 @@ const text = m.body.slice(prefix.length + cmd.length).trim();
     const end = new Date().getTime();
     const responseTime = (end - start) / 1000;
 
-    const text = `┏━༆ 𝐘𝐄𝐒𝐒𝐄𝐑 𝐌𝐃༆
+    const text = ` ╔═✣ Scorpion 𝐌𝐃✣
 ┃☦︎𝚋𝚘𝚝 𝚗𝚊𝚖𝚎:*𝑌𝐸𝑆𝑆𝐸𝑅 𝑀𝐷*
 ╽☦︎𝚟𝚒𝚜𝚒𝚘𝚗: *9.𝟶.𝟶*
 ┃☦︎𝚘𝚠𝚗𝚎𝚛: *𝑦𝑒𝑠𝑠𝑒𝑟𝑡𝑒𝑐ℎ*    
@@ -22,7 +22,7 @@ const text = m.body.slice(prefix.length + cmd.length).trim();
 ┃☦︎𝚌𝚛𝚎𝚊𝚝𝚘𝚛: 𝑦𝑒𝑠𝑠𝑒𝑟𝑡𝑒𝑐ℎ
 ┃☦︎𝙻𝚒𝚋𝚛𝚊𝚛𝚢:*𝚋𝚊𝚒𝚕𝚠𝚊𝚢𝚜*
 ┗❑
-  Y͟E͟S͟S͟E͟R͟ M͟D͟ C͟O͟M͟M͟A͟N͟D͟ L͟I͟S͟T͟
+  SCORPION M͟D͟ C͟O͟M͟M͟A͟N͟D͟ L͟I͟S͟T͟
 
 
 ┏❐ 𝙲𝙾𝙽𝚅𝙴𝚁𝚃𝙴𝚁
@@ -125,9 +125,9 @@ const text = m.body.slice(prefix.length + cmd.length).trim();
 ┃✰ .𝙶𝚒𝚝𝚑𝚞𝚋𝚂𝚝𝚊𝚕𝚔
 ╰❐
 𝑲𝑬𝑬𝑷 𝑼𝑺𝑰𝑵𝑮 𝒀𝑬𝑺𝑺𝑬𝑹 𝑴𝑫
-owner; ;https://wa.me/255621995482
+owner; ;https://wa.me/255716945971
   
-made by yessertech`;
+made by dullahtech`;
     sock.sendMessage(m.from, { text }, { quoted: m });
   }
 }
